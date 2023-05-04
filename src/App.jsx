@@ -835,6 +835,17 @@ import VideInterCom_4_2_2 from './pages/VideInterCom_4_2_2';
 import VideInterCom_4_2_2_1 from './pages/VideInterCom_4_2_2_1.JSX';
 import VideInterCom_4_2_2_2 from './pages/VideInterCom_4_2_2_2';
 import VideInterCom_4_2_2_3 from './pages/VideInterCom_4_2_2_3';
+import Keyboards_1005 from './pages/Keyboards_1005';
+import Keyboards_1005_1 from './pages/Keyboards_1005_1';
+import Keyboards_1005_2 from './pages/Keyboards_1005_2';
+import Keyboards_1005_3 from './pages/Keyboards_1005_3';
+import Keyboards_1005_3_1 from './pages/Keyboards_1005_3_1';
+import Keyboards_1005_3_1_1 from './pages/Keyboards_1005_3_1_1';
+import Keyboards_1005_3_2 from './pages/Keyboards_1005_3_2';
+import Keyboards_1005_3_3 from './pages/Keyboards_1005_3_3';
+import Keyboards_1005_3_4 from './pages/Keyboards_1005_3_4';
+import Keyboards_1005_4 from './pages/Keyboards_1005_4';
+import Keyboards_1100 from './pages/Keyboards_1100';
 
 
 
@@ -1627,6 +1638,23 @@ function App() {
 
 
         <Route path='/Firmware/Hikvision/Keyboards/' element={<Keyboards />} />
+        {/* Firmware/Hikvision/Keyboards/DS-1005KI/ pages */}
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/' element={<Keyboards_1005 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/1' element={<Keyboards_1005_1 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/2' element={<Keyboards_1005_2 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3' element={<Keyboards_1005_3 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3/1' element={<Keyboards_1005_3_1 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3/1/1' element={<Keyboards_1005_3_1_1 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3/2' element={<Keyboards_1005_3_2 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3/3' element={<Keyboards_1005_3_3 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/3/4' element={<Keyboards_1005_3_4 />} />
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1005KI/4' element={<Keyboards_1005_4 />} />
+
+
+        {/* /Firmware/Hikvision/Keyboards/DS-1100KI/ */}
+        <Route path='/Firmware/Hikvision/Keyboards/DS-1100KI/' element={<Keyboards_1100 />} />
+
+
         <Route path='/Firmware/Hikvision/Network/' element={<Network />} />
         <Route path='/Firmware/Hikvision/Thermal/' element={<Thermal2 />} />
         <Route path='/Firmware/Hikvision/Storage/' element={<Storage2 />} />
